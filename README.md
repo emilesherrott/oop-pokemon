@@ -6,7 +6,7 @@ Within this game there's two parent classes.
 2. Pokemon
   - There's a subclass for the different types of Pokemon dependant on their type. 
 
-## Game
+## Game (inside index.js)
 
 To play the game, create an instance of two PokemonMasters and several different pokemon, equipped with their moves. 
 

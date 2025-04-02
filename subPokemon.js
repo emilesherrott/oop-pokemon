@@ -47,10 +47,21 @@ class WaterType extends Pokemon{
     }
 }
 
+class DragonType extends Pokemon{
+    constructor(name, level, moves, health){
+        super(name, level, "Dragon", moves, health)
+        this.weakness = ["Fairy", "Ice"]
+        this.strengths = ["Fire", "Water", "Electric"]
+        this.ineffective = ["Steel"]
+    }
+}
+
+
 module.exports = {
     ElectricType, 
     FireType,
     GrassType,
     NormalType, 
-    WaterType
+    WaterType,
+    DragonType
 }
