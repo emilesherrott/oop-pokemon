@@ -58,5 +58,8 @@ ash.catchPokemon(charizard)
 ash.catchPokemon(bulbasaur)
 ash.catchPokemon(snorlax)
 misty.catchPokemon(squirtle)
+misty.catchPokemon(poliwag)
+misty.catchPokemon(dragonite)
+
 
 ash.challenge(misty)
